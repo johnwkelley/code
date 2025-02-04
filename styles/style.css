@@ -1,0 +1,42 @@
+* {
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    border: 8px solid black;
+    padding: 5px;
+}
+
+img {
+    height: 150px;
+}
+
+.flex-item {
+    background-color: lightblue;
+    border: 1px solid darkblue;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    flex: 1 30px;
+}
+
+
+
+.flex-container2 {
+    display: flex;
+    border: 8px dotted black;
+    padding: 5px;
+}
+
+
+.flex-item2 {
+    background-color: lightgreen;
+    border: 1px solid darkgreen;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    flex: 1 30px;
+}
